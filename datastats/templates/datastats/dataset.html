@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block breadcrumb %}
+  <li class="breadcrumb-item"><a href="{% url 'datastats:summary' %}">Datasets</a></li>
+  <li class="breadcrumb-item active">{{ dataset }}</li>
+{% endblock %}
+
+{% block content %}
+	<table id=dsColumns class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+		<thead>
+			<th scope="col">Column Name</th>
+			<th scope="col">Column Type</th>
+			<th scope="col">Number of Blank Values</th>
+			<th scope="col">Number of Unique Values</th>
+			<th scope="col">Variability Index</th>
+			<th scope="col">Maximum Value</th>
+			<th scope="col">Minimum Value</th>
+			<th scope="col">Average Value</th>
+			<th scope="col">Standard Deviation</th>
+		</thead>
+		<tbody>
+			{% for column in dataset.column_set.all %}
+				<tr>
+					<td><a href="/datastats/{{ column.id }}/">{{ column.column_name }}</a></td>
+					<td>{{ column.column_type }}</td>
+					<td>{{ column.num_blank }}</td>
+					<td>{{ column.num_unique }}</td>
+					<td>{{ column.variability }}</td>
+					<td>{{ column.num_max }}</td>
+					<td>{{ column.num_min }}</td>
+					<td>{{ column.num_mean }}</td>
+					<td>{{ column.num_std }}</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+    </table>
+{% endblock %}
+
+{% block script %}
+	<script>
+		$(document).ready(function () {
+			$('#dsColumns').DataTable();
+			$('.dataTables_length').addClass('bs-select');
+		});
+	</script>
+{% endblock %}
