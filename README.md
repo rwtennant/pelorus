@@ -18,6 +18,13 @@ Pelorus allows you to upload a structured csv file (currently csv is the only fo
   * min
   * average
   * standard deviation
+  
+## What's next for Pelorus?
+Plenty of thoughts of how I can continue to extend and make Pelorus better... here are a few ideas;
+* Deploy it as a SaaS offering
+* Make it multi-tenant
+* Add the ability to drill into a field and see and explore the its values
+* Look at relationships between fields - identify those whose values are highly correlated, for example
 
 ## A note on measuring variability of a field
 I wanted a way to quickly look at a field and understand how distributed its values are.  Some fields are highly concentrated, where one or two values dominate, whereas others are more evenly distributed. You may know,for example, that a field has 5 unique values (a, b, c, d, and e), but you can't tell from that one number that 99% of the rows are populated with value d. The Variability index provides at least some information about how well distributed a field's values are - the closer to 1, the more evenly distributed.
