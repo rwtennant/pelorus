@@ -19,8 +19,8 @@ Pelorus allows you to upload a structured csv file (currently csv is the only fo
   * average
   * standard deviation
 
-<img src="https://i.postimg.cc/p5ry0s3K/Pelorus-Screenshot-Landing-Page.png">
-<img src="https://i.postimg.cc/R6XNQkpM/Pelorus-Screenshot-File-Detail.png">
+<img src="https://i.postimg.cc/wMcJjPV4/Pelorus-Screenshot-Landing-Page.png">
+<img src="https://i.postimg.cc/FzQ3mmjJ/Pelorus-Screenshot-File-Detail.png">
   
 ## What's next for Pelorus?
 Plenty of thoughts of how I can continue to extend and make Pelorus better... here are a few ideas:
