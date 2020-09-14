@@ -18,6 +18,7 @@ Pelorus allows you to upload a structured csv file (currently csv is the only fo
   * min
   * average
   * standard deviation
+![Uploaded Datasets](https://postimg.cc/p5ry0s3K][img]https://i.postimg.cc/p5ry0s3K/Pelorus-Screenshot-Landing-Page.png) ![Dataset Field Information](https://postimg.cc/R6XNQkpM][img]https://i.postimg.cc/R6XNQkpM/Pelorus-Screenshot-File-Detail.png)
   
 ## What's next for Pelorus?
 Plenty of thoughts of how I can continue to extend and make Pelorus better... here are a few ideas:
