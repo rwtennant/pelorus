@@ -20,7 +20,7 @@ Pelorus allows you to upload a structured csv file (currently csv is the only fo
   * standard deviation
   
 ## What's next for Pelorus?
-Plenty of thoughts of how I can continue to extend and make Pelorus better... here are a few ideas;
+Plenty of thoughts of how I can continue to extend and make Pelorus better... here are a few ideas:
 * Deploy it as a SaaS offering
 * Make it multi-tenant
 * Add the ability to drill into a field and see and explore the its values
